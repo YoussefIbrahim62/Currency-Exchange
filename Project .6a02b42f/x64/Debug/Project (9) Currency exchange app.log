@@ -1,0 +1,20 @@
+﻿  Project (9) Currency exchange app.cpp
+D:\My Projects\Project (9) Currency exchange app\clsString.h(39,25): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Project%20(9)%20Currency%20exchange%20app.cpp')
+  
+D:\My Projects\Project (9) Currency exchange app\clsString.h(44,29): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Project%20(9)%20Currency%20exchange%20app.cpp')
+  
+D:\My Projects\Project (9) Currency exchange app\clsString.h(56,30): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Project%20(9)%20Currency%20exchange%20app.cpp')
+  
+D:\My Projects\Project (9) Currency exchange app\clsString.h(193,29): warning C4267: 'return': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Project%20(9)%20Currency%20exchange%20app.cpp')
+  
+D:\My Projects\Project (9) Currency exchange app\clsString.h(324,30): warning C4267: '=': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Project%20(9)%20Currency%20exchange%20app.cpp')
+  
+D:\My Projects\Project (9) Currency exchange app\clsString.h(372,22): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
+  (compiling source file 'Project%20(9)%20Currency%20exchange%20app.cpp')
+  
+  Project (9) Currency exchange app.vcxproj -> D:\My Projects\Project (9) Currency exchange app\x64\Debug\Project (9) Currency exchange app.exe

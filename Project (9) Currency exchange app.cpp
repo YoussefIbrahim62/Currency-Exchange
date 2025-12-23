@@ -1,20 +1,53 @@
-// Project (9) Currency exchange app.cpp : This file contains the 'main' function. Program execution begins and ends there.
-//
+#include "AllNeededLibraries.h"
+#include "clsCurrency.h"
 
-#include <iostream>
+
+void PrintCurrency(clsCurrency C)
+{
+
+    cout << "\n\n";
+
+    cout << "Country    : " << C.GetCountry() << endl;
+    cout << "Code       : " << C.GetCode() << endl;
+    cout << "Currency   : " << C.GetCurrencyName() << endl;
+    cout << "Rate(1$) = : " << C.GetRate() << endl << endl;
+
+}
+
+
+
 
 int main()
 {
-    std::cout << "Hello World!\n";
+
+    clsCurrency C1 = clsCurrency::FindByCode("EgP");
+    if (!C1.IsEmpty())
+    {
+        PrintCurrency(C1);
+    }
+
+
+
+
+
+    clsCurrency C2 = clsCurrency::FindByCode("jod");
+    if (!C2.IsEmpty())
+    {
+        PrintCurrency(C2);
+    }
+
+
+    cout << "AFTER UPDATE";
+
+    C2.UpdateRate(0.701);
+
+    if (!C2.IsEmpty())
+    {
+        PrintCurrency(C2);
+    }
+
+
+
+
 }
 
-// Run program: Ctrl + F5 or Debug > Start Without Debugging menu
-// Debug program: F5 or Debug > Start Debugging menu
-
-// Tips for Getting Started: 
-//   1. Use the Solution Explorer window to add/manage files
-//   2. Use the Team Explorer window to connect to source control
-//   3. Use the Output window to see build output and other messages
-//   4. Use the Error List window to view errors
-//   5. Go to Project > Add New Item to create new code files, or Project > Add Existing Item to add existing code files to the project
-//   6. In the future, to open this project again, go to File > Open > Project and select the .sln file
