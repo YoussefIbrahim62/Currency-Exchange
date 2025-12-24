@@ -1,5 +1,6 @@
 #include "AllNeededLibraries.h"
 #include "clsCurrency.h"
+#include "clsCurrencyMenuScreen.h"
 
 
 void PrintCurrency(clsCurrency C)
@@ -20,7 +21,7 @@ void PrintCurrency(clsCurrency C)
 int main()
 {
 
-    clsCurrency C1 = clsCurrency::FindByCode("EgP");
+   /* clsCurrency C1 = clsCurrency::FindByCode("EgP");
     if (!C1.IsEmpty())
     {
         PrintCurrency(C1);
@@ -44,10 +45,14 @@ int main()
     if (!C2.IsEmpty())
     {
         PrintCurrency(C2);
+    }*/
+
+
+
+    while (true)
+    {
+        clsCurrencyMenuScreen::ShowMenuScreen();
     }
-
-
-
 
 }
 
