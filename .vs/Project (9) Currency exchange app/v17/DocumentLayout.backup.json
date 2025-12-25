@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "D:\\My Projects\\Project (9) Currency exchange app\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6A02B42F-82C3-4343-9480-8B58715215DE}|Project (9) Currency exchange app.vcxproj|D:\\My Projects\\Project (9) Currency exchange app\\Project (9) Currency exchange app.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6A02B42F-82C3-4343-9480-8B58715215DE}|Project (9) Currency exchange app.vcxproj|solutionrelative:Project (9) Currency exchange app.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{6A02B42F-82C3-4343-9480-8B58715215DE}|Project (9) Currency exchange app.vcxproj|D:\\My Projects\\Project (9) Currency exchange app\\clsListCurrenciesScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6A02B42F-82C3-4343-9480-8B58715215DE}|Project (9) Currency exchange app.vcxproj|solutionrelative:clsListCurrenciesScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6A02B42F-82C3-4343-9480-8B58715215DE}|Project (9) Currency exchange app.vcxproj|D:\\My Projects\\Project (9) Currency exchange app\\clsCurrencyMenuScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{6A02B42F-82C3-4343-9480-8B58715215DE}|Project (9) Currency exchange app.vcxproj|solutionrelative:clsCurrencyMenuScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{6A02B42F-82C3-4343-9480-8B58715215DE}|Project (9) Currency exchange app.vcxproj|D:\\My Projects\\Project (9) Currency exchange app\\Project (9) Currency exchange app.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6A02B42F-82C3-4343-9480-8B58715215DE}|Project (9) Currency exchange app.vcxproj|solutionrelative:Project (9) Currency exchange app.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     }
   ],
   "DocumentGroupContainers": [
@@ -18,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -26,26 +30,39 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "clsCurrencyMenuScreen.h",
-              "DocumentMoniker": "D:\\My Projects\\Project (9) Currency exchange app\\clsCurrencyMenuScreen.h",
-              "RelativeDocumentMoniker": "clsCurrencyMenuScreen.h",
-              "ToolTip": "D:\\My Projects\\Project (9) Currency exchange app\\clsCurrencyMenuScreen.h*",
-              "RelativeToolTip": "clsCurrencyMenuScreen.h*",
-              "ViewState": "AgIAAHIAAAAAAAAAAAAAAHwAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "clsListCurrenciesScreen.h",
+              "DocumentMoniker": "D:\\My Projects\\Project (9) Currency exchange app\\clsListCurrenciesScreen.h",
+              "RelativeDocumentMoniker": "clsListCurrenciesScreen.h",
+              "ToolTip": "D:\\My Projects\\Project (9) Currency exchange app\\clsListCurrenciesScreen.h",
+              "RelativeToolTip": "clsListCurrenciesScreen.h",
+              "ViewState": "AgIAAB8AAAAAAAAAAAAAAD0AAAAWAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-12-24T19:34:14.921Z",
+              "WhenOpened": "2025-12-25T15:12:01.205Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "clsCurrencyMenuScreen.h",
+              "DocumentMoniker": "D:\\My Projects\\Project (9) Currency exchange app\\clsCurrencyMenuScreen.h",
+              "RelativeDocumentMoniker": "clsCurrencyMenuScreen.h",
+              "ToolTip": "D:\\My Projects\\Project (9) Currency exchange app\\clsCurrencyMenuScreen.h",
+              "RelativeToolTip": "clsCurrencyMenuScreen.h",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAAE8AAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-25T15:06:34.588Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
               "Title": "Project (9) Currency exchange app.cpp",
               "DocumentMoniker": "D:\\My Projects\\Project (9) Currency exchange app\\Project (9) Currency exchange app.cpp",
               "RelativeDocumentMoniker": "Project (9) Currency exchange app.cpp",
               "ToolTip": "D:\\My Projects\\Project (9) Currency exchange app\\Project (9) Currency exchange app.cpp",
               "RelativeToolTip": "Project (9) Currency exchange app.cpp",
-              "ViewState": "AgIAADMAAAAAAAAAAAAAADUAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAAADUAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-12-23T17:28:18.142Z",
               "EditorCaption": ""

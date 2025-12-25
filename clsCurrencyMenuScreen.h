@@ -1,5 +1,6 @@
 #pragma once
 #include "clsScreen.h"
+#include "clsListCurrenciesScreen.h"
 
 class clsCurrencyMenuScreen : protected clsScreen
 {
@@ -78,7 +79,7 @@ private:
 
 	static void _ShowListCurrenciesScreen()
 	{
-		cout << "List currencies screen should appear here \n";
+		clsListCurrenciesScreen::ShowListCurrenciesScreen();
 	}
 
 

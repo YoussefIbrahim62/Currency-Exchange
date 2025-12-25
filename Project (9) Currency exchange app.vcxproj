@@ -129,6 +129,7 @@
     <ClInclude Include="AllNeededLibraries.h" />
     <ClInclude Include="clsCurrency.h" />
     <ClInclude Include="clsCurrencyMenuScreen.h" />
+    <ClInclude Include="clsListCurrenciesScreen.h" />
     <ClInclude Include="clsScreen.h" />
     <ClInclude Include="clsString.h" />
   </ItemGroup>
