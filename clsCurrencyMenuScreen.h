@@ -1,6 +1,9 @@
 #pragma once
 #include "clsScreen.h"
 #include "clsListCurrenciesScreen.h"
+#include "clsFindCurrencyScreen.h"
+#include "clsUpdateCurrencyScreen.h"
+#include "clsCurrencyCalculatorScreen.h"
 
 class clsCurrencyMenuScreen : protected clsScreen
 {
@@ -32,6 +35,28 @@ private:
 
 
 #pragma region Side functions
+
+	static bool ReadAnswerYesOrNO(string message)
+	{
+		char answer;
+
+		cout << message << " : ";
+		cin >> answer;
+
+		while (cin.fail() || (tolower(answer) != 'y' && tolower(answer) != 'n'))
+		{
+			cin.clear();
+			cin.ignore(numeric_limits<streamsize>::max(), '\n');
+
+			cout << "\nInvalid input, try again: ";
+			cin >> answer;
+		}
+
+		if (tolower(answer) == 'y')
+			return true;
+		else
+			return false;
+	}
 
 
 	static bool IsNumberBetween(double Number, double From, double To)
@@ -85,19 +110,24 @@ private:
 
 	static void _ShowFindCurrencyScreen()
 	{
-		cout << "Find currency screen should appear here \n";
+		clsFindCurrencyScreen::ShowFindCurrencyScreen();
 	}
 
 
 	static void _ShowUpdateRateScreen()
 	{
-		cout << "Update rate screen should appear here \n";
+		clsUpdateCurrencyScreen::ShowUpdateCurrencyScreen();
 	}
 
 
 	static void _ShowCurrencyCalcualtorScreen()
 	{
-		cout << "Currency Calcualtor screen should appear here \n";
+		do
+		{
+			_ClearScreen();
+			clsCurrencyCalculatorScreen::ShowCurrencyCalculator();
+		} while (ReadAnswerYesOrNO("\nDo you want to perform another calculation y/n ?"));
+		
 	}
 
 
@@ -146,7 +176,6 @@ private:
 			}
 			case(enMenuOptions::eCurrencyCalcualtor):
 			{
-				_ClearScreen();
 				_ShowCurrencyCalcualtorScreen();
 				_GoToMainMenuScreen();
 				break;

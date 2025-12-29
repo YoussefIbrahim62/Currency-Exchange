@@ -17,4 +17,8 @@ D:\My Projects\Project (9) Currency exchange app\clsString.h(324,30): warning C4
 D:\My Projects\Project (9) Currency exchange app\clsString.h(372,22): warning C4267: 'initializing': conversion from 'size_t' to 'short', possible loss of data
   (compiling source file 'Project%20(9)%20Currency%20exchange%20app.cpp')
   
+D:\My Projects\Project (9) Currency exchange app\clsCurrencyCalculatorScreen.h(56,86): warning C4244: 'argument': conversion from 'double' to 'int', possible loss of data
+  (compiling source file 'Project%20(9)%20Currency%20exchange%20app.cpp')
+  
+D:\My Projects\Project (9) Currency exchange app\clsCurrency.h(297,1): warning C4715: 'clsCurrency::CurrencyExchangeCalculator': not all control paths return a value
   Project (9) Currency exchange app.vcxproj -> D:\My Projects\Project (9) Currency exchange app\x64\Debug\Project (9) Currency exchange app.exe

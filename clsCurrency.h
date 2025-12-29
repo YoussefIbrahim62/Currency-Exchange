@@ -139,6 +139,10 @@ public:
 
 #pragma region constructor
 
+	clsCurrency()
+	{
+
+	}
 	clsCurrency(_enMode Mode, string Country, string Code, string CurrencyName, double Rate)
 	{
 		_Mode = Mode;
@@ -147,6 +151,7 @@ public:
 		_CurrencyName = CurrencyName;
 		_Rate = Rate;
 	}
+
 
 
 #pragma endregion
@@ -204,7 +209,7 @@ public:
 
 	static clsCurrency FindByCountry(string Country)
 	{
-		Country = clsString::UpperAllString(Country);
+		Country = clsString::UpperFirstLetterOfEachWord(Country);
 
 
 		fstream MyFile;
@@ -268,6 +273,29 @@ public:
 	{
 		return _GetAllRecordsFromFile("Currencies.txt");
 	}
+
+
+	static double CurrencyExchangeCalculator(clsCurrency Currency1, clsCurrency Currency2, int amount)
+	{
+		if (Currency1.IsEmpty() || Currency2.IsEmpty() || amount < 0)
+			return -1;
+		else
+		{
+			if (Currency1.GetCode() == "USD" && Currency2.GetCode() != "USD")
+				return amount * Currency2.GetRate();
+			else if (Currency1.GetCode() == "USD" && Currency2.GetCode() == "USD")
+				return amount;
+			else if (Currency1.GetCode() != "USD" && Currency2.GetCode() == "USD")
+				return amount / Currency1.GetRate();
+			else if (Currency1.GetCode() != "USD" && Currency2.GetCode() != "USD")
+			{
+				double NewAmount = amount / Currency1.GetRate();
+				return NewAmount * Currency2.GetRate();	
+			}
+				
+		}
+	}
+
 
 #pragma endregion
 

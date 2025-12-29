@@ -3,8 +3,8 @@
   "WorkspaceRootPath": "D:\\My Projects\\Project (9) Currency exchange app\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{6A02B42F-82C3-4343-9480-8B58715215DE}|Project (9) Currency exchange app.vcxproj|D:\\My Projects\\Project (9) Currency exchange app\\clsListCurrenciesScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{6A02B42F-82C3-4343-9480-8B58715215DE}|Project (9) Currency exchange app.vcxproj|solutionrelative:clsListCurrenciesScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+      "AbsoluteMoniker": "D:0:0:{6A02B42F-82C3-4343-9480-8B58715215DE}|Project (9) Currency exchange app.vcxproj|D:\\My Projects\\Project (9) Currency exchange app\\clsCurrencyCalculatorScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{6A02B42F-82C3-4343-9480-8B58715215DE}|Project (9) Currency exchange app.vcxproj|solutionrelative:clsCurrencyCalculatorScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{6A02B42F-82C3-4343-9480-8B58715215DE}|Project (9) Currency exchange app.vcxproj|D:\\My Projects\\Project (9) Currency exchange app\\clsCurrencyMenuScreen.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -22,25 +22,8 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 2,
           "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "clsListCurrenciesScreen.h",
-              "DocumentMoniker": "D:\\My Projects\\Project (9) Currency exchange app\\clsListCurrenciesScreen.h",
-              "RelativeDocumentMoniker": "clsListCurrenciesScreen.h",
-              "ToolTip": "D:\\My Projects\\Project (9) Currency exchange app\\clsListCurrenciesScreen.h",
-              "RelativeToolTip": "clsListCurrenciesScreen.h",
-              "ViewState": "AgIAAB8AAAAAAAAAAAAAAD0AAAAWAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-12-25T15:12:01.205Z",
-              "EditorCaption": ""
-            },
             {
               "$type": "Document",
               "DocumentIndex": 1,
@@ -49,9 +32,26 @@
               "RelativeDocumentMoniker": "clsCurrencyMenuScreen.h",
               "ToolTip": "D:\\My Projects\\Project (9) Currency exchange app\\clsCurrencyMenuScreen.h",
               "RelativeToolTip": "clsCurrencyMenuScreen.h",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAAE8AAAAoAAAAAAAAAA==",
+              "ViewState": "AgIAAG4AAAAAAAAAAAAAAHoAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2025-12-25T15:06:34.588Z",
+              "WhenOpened": "2025-12-29T22:22:39.958Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "clsCurrencyCalculatorScreen.h",
+              "DocumentMoniker": "D:\\My Projects\\Project (9) Currency exchange app\\clsCurrencyCalculatorScreen.h",
+              "RelativeDocumentMoniker": "clsCurrencyCalculatorScreen.h",
+              "ToolTip": "D:\\My Projects\\Project (9) Currency exchange app\\clsCurrencyCalculatorScreen.h",
+              "RelativeToolTip": "clsCurrencyCalculatorScreen.h",
+              "ViewState": "AgIAACAAAAAAAAAAAAAAABsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2025-12-29T21:24:28.1Z",
               "EditorCaption": ""
             },
             {
@@ -62,7 +62,7 @@
               "RelativeDocumentMoniker": "Project (9) Currency exchange app.cpp",
               "ToolTip": "D:\\My Projects\\Project (9) Currency exchange app\\Project (9) Currency exchange app.cpp",
               "RelativeToolTip": "Project (9) Currency exchange app.cpp",
-              "ViewState": "AgIAAA8AAAAAAAAAAAAAADUAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAuwDcAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2025-12-23T17:28:18.142Z",
               "EditorCaption": ""
